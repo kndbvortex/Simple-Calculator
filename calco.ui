@@ -146,17 +146,12 @@ font: 25 18pt &quot;Exo&quot;;
              </item>
              <item>
               <property name="text">
+               <string>log(x)</string>
+              </property>
+             </item>
+             <item>
+              <property name="text">
                <string>ln(x)</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>pgcd(x,y)</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>ppmc(x,y)</string>
               </property>
              </item>
              <item>

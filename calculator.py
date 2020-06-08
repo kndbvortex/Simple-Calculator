@@ -40,7 +40,8 @@ class Calculatrice(QMainWindow):
 							"abs" : (3, "droite", lambda a: math.fabs(a)), 
 							"cos" : (3, "droite", lambda a: math.cos(a)), 
 							"cos⁻¹" : (3, "droite", lambda a : math.acos(a)),
-							 "ln" : (3, "droite" , lambda a : math.log(a)),
+							"ln" : (3, "droite" , lambda a : math.log(a)),
+							"log" : (3, "droite" , lambda a : math.log10(a))
 							"pgcd" : (3, "droite" , lambda a, b : math.gcd(a,b)), 
 							"ppcm" : (3, "droite", lambda a, b : int(a * b / math.gcd(a,b))),
 							"sin" : (3, "droite", lambda a: math.sin(a)), 
