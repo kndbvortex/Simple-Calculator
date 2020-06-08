@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>688</width>
-    <height>507</height>
+    <height>543</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -15,27 +15,27 @@
   </property>
   <property name="windowIcon">
    <iconset>
-    <normaloff>../../../../../Téléchargements/calculate-math.png</normaloff>../../../../../Téléchargements/calculate-math.png</iconset>
+    <normaloff>image/calculate-math.png</normaloff>image/calculate-math.png</iconset>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout_4">
     <item>
-     <spacer name="verticalSpacer_2">
+     <spacer name="verticalSpacer_3">
       <property name="orientation">
        <enum>Qt::Vertical</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>
         <width>20</width>
-        <height>43</height>
+        <height>14</height>
        </size>
       </property>
      </spacer>
     </item>
     <item>
-     <layout class="QHBoxLayout" name="horizontalLayout_5">
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
       <item>
-       <spacer name="horizontalSpacer">
+       <spacer name="horizontalSpacer_4">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -50,181 +50,253 @@
       <item>
        <layout class="QVBoxLayout" name="verticalLayout_3">
         <item>
-         <widget class="QSplitter" name="splitter">
-          <property name="maximumSize">
-           <size>
-            <width>450</width>
-            <height>67</height>
-           </size>
-          </property>
-          <property name="orientation">
-           <enum>Qt::Vertical</enum>
-          </property>
-          <widget class="QLabel" name="label_operation">
-           <property name="maximumSize">
-            <size>
-             <width>450</width>
-             <height>33</height>
-            </size>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">background-color : white;
-font: 25 18pt &quot;Exo&quot;;
+         <layout class="QHBoxLayout" name="horizontalLayout_6">
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="maximumSize">
+             <size>
+              <width>75</width>
+              <height>75</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">border-style: outset;
+border-radius: 50px;
 </string>
-           </property>
-           <property name="text">
-            <string/>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-           </property>
-          </widget>
-          <widget class="QLabel" name="label_resultat">
-           <property name="maximumSize">
-            <size>
-             <width>450</width>
-             <height>33</height>
-            </size>
-           </property>
-           <property name="styleSheet">
-            <string notr="true">background-color : white;
-font: 25 18pt &quot;Exo&quot;;
-</string>
-           </property>
-           <property name="text">
-            <string/>
-           </property>
-           <property name="alignment">
-            <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-           </property>
-          </widget>
-         </widget>
-        </item>
-        <item>
-         <spacer name="verticalSpacer">
-          <property name="orientation">
-           <enum>Qt::Vertical</enum>
-          </property>
-          <property name="sizeHint" stdset="0">
-           <size>
-            <width>20</width>
-            <height>40</height>
-           </size>
-          </property>
-         </spacer>
+            </property>
+            <property name="text">
+             <string/>
+            </property>
+            <property name="pixmap">
+             <pixmap>image/Dk.jpg</pixmap>
+            </property>
+            <property name="scaledContents">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_3">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>40</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
         </item>
         <item>
          <layout class="QVBoxLayout" name="verticalLayout_2">
           <item>
-           <widget class="QSplitter" name="splitter_3">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
+           <widget class="QSplitter" name="splitter">
+            <property name="maximumSize">
+             <size>
+              <width>1000</width>
+              <height>67</height>
+             </size>
             </property>
-            <widget class="QComboBox" name="comboBox_fonctions">
-             <property name="toolTip">
-              <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fonction spéciales&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <widget class="QLabel" name="label_operation">
+             <property name="maximumSize">
+              <size>
+               <width>1000</width>
+               <height>33</height>
+              </size>
              </property>
-             <item>
-              <property name="text">
-               <string>Fonctions</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>abs(x)</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>cos(x)</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>cos⁻¹(x)</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>log(x)</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>ln(x)</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>sin(x)</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>sin⁻¹(x)</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>tan(x)</string>
-              </property>
-             </item>
-             <item>
-              <property name="text">
-               <string>tan⁻¹(x)</string>
-              </property>
-             </item>
+             <property name="styleSheet">
+              <string notr="true">background-color : white;
+font: 25 18pt &quot;Exo&quot;;
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
             </widget>
-            <widget class="QSplitter" name="splitter_2">
-             <property name="orientation">
-              <enum>Qt::Horizontal</enum>
+            <widget class="QLabel" name="label_resultat">
+             <property name="maximumSize">
+              <size>
+               <width>1000</width>
+               <height>33</height>
+              </size>
              </property>
-             <widget class="QPushButton" name="bouton_parenthese_ouvrante">
-              <property name="toolTip">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Début d'un groupement&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
-              </property>
-              <property name="text">
-               <string>(</string>
-              </property>
-             </widget>
-             <widget class="QPushButton" name="bouton_parenthese_fermante">
-              <property name="toolTip">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fin d'un groupement&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
-              </property>
-              <property name="text">
-               <string>)</string>
-              </property>
-             </widget>
-             <widget class="QPushButton" name="bouton_puissance">
-              <property name="toolTip">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Puissance (^)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
-              </property>
-              <property name="text">
-               <string>^</string>
-              </property>
-             </widget>
-             <widget class="QPushButton" name="bouton_racin_carre">
-              <property name="toolTip">
-               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Racine carrée&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-              </property>
-              <property name="styleSheet">
-               <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
-              </property>
-              <property name="text">
-               <string>√</string>
-              </property>
-             </widget>
+             <property name="styleSheet">
+              <string notr="true">background-color : white;
+font: 25 18pt &quot;Exo&quot;;
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="alignment">
+              <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+             </property>
             </widget>
            </widget>
+          </item>
+          <item>
+           <spacer name="verticalSpacer">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QSplitter" name="splitter_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <widget class="QPushButton" name="bouton_parenthese_ouvrante">
+               <property name="toolTip">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Début d'un groupement&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
+               </property>
+               <property name="text">
+                <string>(</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="bouton_parenthese_fermante">
+               <property name="toolTip">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fin d'un groupement&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
+               </property>
+               <property name="text">
+                <string>)</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="bouton_puissance">
+               <property name="toolTip">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Puissance (^)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
+               </property>
+               <property name="text">
+                <string>^</string>
+               </property>
+              </widget>
+              <widget class="QPushButton" name="bouton_racin_carre">
+               <property name="toolTip">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Racine carrée&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
+               </property>
+               <property name="text">
+                <string>√</string>
+               </property>
+              </widget>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_2">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QComboBox" name="comboBox_fonctions">
+              <property name="toolTip">
+               <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Fonction spéciales&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color : #1e90ff;
+font: 25 12pt &quot;Exo&quot;;</string>
+              </property>
+              <item>
+               <property name="text">
+                <string>Fonctions</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>abs(x)</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>cos(x)</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>cos⁻¹(x)</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>log(x)</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>ln(x)</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>sin(x)</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>sin⁻¹(x)</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>tan(x)</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>tan⁻¹(x)</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+           </layout>
           </item>
           <item>
            <layout class="QVBoxLayout" name="verticalLayout">
@@ -266,7 +338,8 @@ font: 25 18pt &quot;Exo&quot;;
                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Delete last character&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
+                 <string notr="true">background-color : #1e90ff;
+font: 25 12pt &quot;Exo&quot;;</string>
                 </property>
                 <property name="text">
                  <string>Del</string>
@@ -279,7 +352,8 @@ font: 25 18pt &quot;Exo&quot;;
                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Clear text&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
+                 <string notr="true">background-color : #1e90ff;
+font: 25 12pt &quot;Exo&quot;;</string>
                 </property>
                 <property name="text">
                  <string>AC</string>
@@ -326,7 +400,8 @@ font: 25 18pt &quot;Exo&quot;;
                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Multiplication (*)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
+                 <string notr="true">background-color : #1e90ff;
+font: 25 12pt &quot;Exo&quot;;</string>
                 </property>
                 <property name="text">
                  <string>x</string>
@@ -339,7 +414,8 @@ font: 25 18pt &quot;Exo&quot;;
                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Division (/)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
+                 <string notr="true">background-color : #1e90ff;
+font: 25 12pt &quot;Exo&quot;;</string>
                 </property>
                 <property name="text">
                  <string>/</string>
@@ -386,7 +462,8 @@ font: 25 18pt &quot;Exo&quot;;
                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Addition (+)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
+                 <string notr="true">background-color : #1e90ff;
+font: 25 12pt &quot;Exo&quot;;</string>
                 </property>
                 <property name="text">
                  <string>+</string>
@@ -399,7 +476,8 @@ font: 25 18pt &quot;Exo&quot;;
                  <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Soustraction (+)&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
+                 <string notr="true">background-color : #1e90ff;
+font: 25 12pt &quot;Exo&quot;;</string>
                 </property>
                 <property name="text">
                  <string>-</string>
@@ -446,7 +524,8 @@ font: 25 18pt &quot;Exo&quot;;
               <item>
                <widget class="QPushButton" name="bouton_ans">
                 <property name="styleSheet">
-                 <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
+                 <string notr="true">background-color : #1e90ff;
+font: 25 12pt &quot;Exo&quot;;</string>
                 </property>
                 <property name="text">
                  <string>Ans</string>
@@ -456,7 +535,8 @@ font: 25 18pt &quot;Exo&quot;;
               <item>
                <widget class="QPushButton" name="bouton_egal">
                 <property name="styleSheet">
-                 <string notr="true">font: 57 12pt &quot;KacstPen&quot;;</string>
+                 <string notr="true">background-color : #1e90ff;
+font: 25 12pt &quot;Exo&quot;;</string>
                 </property>
                 <property name="text">
                  <string>=</string>
@@ -472,7 +552,7 @@ font: 25 18pt &quot;Exo&quot;;
        </layout>
       </item>
       <item>
-       <spacer name="horizontalSpacer_2">
+       <spacer name="horizontalSpacer_5">
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
         </property>
@@ -487,17 +567,14 @@ font: 25 18pt &quot;Exo&quot;;
      </layout>
     </item>
     <item>
-     <spacer name="verticalSpacer_3">
-      <property name="styleSheet">
-       <string>font: 57 12pt &quot;KacstPen&quot;;</string>
-      </property>
+     <spacer name="verticalSpacer_2">
       <property name="orientation">
        <enum>Qt::Vertical</enum>
       </property>
       <property name="sizeHint" stdset="0">
        <size>
         <width>20</width>
-        <height>42</height>
+        <height>14</height>
        </size>
       </property>
      </spacer>
@@ -525,12 +602,12 @@ font: 25 18pt &quot;Exo&quot;;
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>438</x>
-     <y>248</y>
+     <x>584</x>
+     <y>348</y>
     </hint>
     <hint type="destinationlabel">
-     <x>444</x>
-     <y>130</y>
+     <x>491</x>
+     <y>181</y>
     </hint>
    </hints>
   </connection>
@@ -541,12 +618,12 @@ font: 25 18pt &quot;Exo&quot;;
    <slot>clear()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>478</x>
-     <y>236</y>
+     <x>584</x>
+     <y>348</y>
     </hint>
     <hint type="destinationlabel">
-     <x>479</x>
-     <y>154</y>
+     <x>526</x>
+     <y>214</y>
     </hint>
    </hints>
   </connection>
